@@ -1,0 +1,51 @@
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+/*RESET*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/*RESET*/
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    background-color:hsl(225, 100%, 94%);
+    background-image: url(images/pattern-background-mobile.svg);
+    background-repeat:repeat-x;
+    background-size: cover;
+}
+
+/*Estructura*/
+.card{
+    width: 90%;
+    max-width: 450px;
+    margin: 0 auto;
+    text-align: center;
+}
+.card-head {
+    background-image: url(images/illustration-hero.svg);
+    background-size: contain;
+    height: 160px;
+    border-radius: 8px 8px 0 0;
+}
+.card-body{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 25px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+.card-body-visor{
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+/**/
+@media (min-width:375px) {
+    .attribution{
+        display: none;
+    }
+}
